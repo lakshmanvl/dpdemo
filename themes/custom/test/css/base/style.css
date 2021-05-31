@@ -1,0 +1,98 @@
+/**
+ * @file
+ * Bartik layout styling.
+ */
+
+/**
+ * Container
+ */
+.layout-container {
+  box-sizing: border-box;
+  max-width: 860px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media all and (min-width: 851px) {
+  .layout-container {
+    max-width: 1290px;
+  }
+}
+
+/**
+ * Main
+ */
+.layout-main-wrapper {
+  min-height: 300px;
+}
+.layout-main {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#block-header {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  height: 50px;
+}
+
+nav#block-sample-theme-main-menu {
+  width: 45%;
+  border: none;
+  float: left;
+}
+#block-sample-theme-branding {
+  width: 20%;
+}
+
+#block-sample-theme-main-menu .menu-item {
+  margin: 0;
+  padding-top: 0.2em;
+  float: left;
+  font-size: 19px;
+  width: 22%;
+}
+.region-header .block-menu li a {
+  border-bottom: none !important;
+  text-align: center;
+}
+#block-sample-theme-main-menu-menu li a.is-active {
+  border-bottom: 4px solid !important;
+  text-align: center;
+}
+.region.region-content {
+  margin: 0px auto;
+  width: 60%;
+}
+.site-footer {
+  padding: 10px 0 30px;
+}
+nav#block-sample-theme-account-menu {
+  width: 20%;
+  border: none;
+  font-size: 18px;
+}
+nav#block-sample-theme-account-menu li.menu-item {
+  width: 45%;
+  float: left;
+}
+.site-footer__top .content li a {
+  border-bottom: none !important;
+}
+div#block-useraccountmenu {
+  width: 25%;
+}
+#superfish-account li {
+  font-size: 16px;
+}
+
+#account-userpage ul {
+  background: #1d84c3;
+}
+
+
+/* HNL Styles */
+#header {
+  border-top: 5px solid #08D087;
+}

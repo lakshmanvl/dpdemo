@@ -1,0 +1,189 @@
+/**
+ * @file
+ * Bartik layout styling.
+ */
+
+/**
+ * Container
+ */
+.layout-container {
+  box-sizing: border-box;
+  max-width: 860px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media all and (min-width: 851px) {
+  .layout-container {
+    max-width: 1290px;
+  }
+}
+
+/* HNL Styles */
+header#header {
+  border-top: 5px solid #08D087;
+}
+#header .logo img {
+  width: 320px !important;
+}
+
+.region-primary-menu #superfish-main li a {
+  font-size: 12px;
+  font-style: normal;
+  line-height: 20px;
+  margin-left: 3px;
+  margin-right: 3px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 10px 10px;
+}
+.region-primary-menu #superfish-main ul {
+  background: #00b0d7;
+  box-shadow: none;
+}
+
+.region-primary-menu ul.sf-menu li:hover > ul, .region-primary-menu ul.sf-menu li.sfHover > ul {
+  left: 3px;
+}
+.region-primary-menu #superfish-main li ul a {
+  color: #fff;
+}
+
+.region-primary-menu #superfish-main li .sf-sub-indicator{
+  right:-2px;
+}
+.region-primary-menu .block-superfish {
+  width: 95%;
+  margin-top: -17px;
+  margin-bottom: 17px;
+}
+
+.region-header-top #search-block-form input {
+  border-radius: 25px 0px 0px 25px;;
+}
+.region-header-top #search-block-form .btn-primary {
+  color: #ccc;
+  background-color: #fff;
+  border-color: #fff;
+  left: -14px;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0px 25px 25px 0px;
+}
+.region-header-top #search-block-form input:focus {
+  border-color: #ccc;
+  border-right: none;
+  border-right-color: transparent;
+  outline: 0;
+  -webkit-box-shadow: none;
+}
+.region.region-header-top {
+  margin-top: 10px;
+}
+
+.region.region-header-top section {
+  width: 64%;
+  float: left;
+}
+.region.region-header-top #superfish-header li a {
+  color: #999;
+  font-size: 0.9em;
+  padding: 15px 23px;
+}
+.region.region-header-top #superfish-header li a:hover {
+  background: none;
+}
+#footer p {
+  color: #FFF;
+}
+.image-container {
+  position: absolute;
+  width: 100%;
+  background-image: url(homepage-bck.jpg);
+  background-position: 0 0;
+  background-repeat: none;
+  background-size: 100%;
+  z-index: -1;
+}
+.ctgt-welcome-block {
+  margin-top: 375px;
+  font-family: "Open Sans", Arial, sans-serif;
+  text-align: center;
+  background-color: #F6F6F6;
+  padding: 10px 0px 10px 0px;
+  color: #00619D;
+}
+.ctgt-welcome-head {
+  font-size: 3.25em;
+  font-weight: 100;
+  line-height: 100%;
+  padding-bottom: 5px;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+  background-color: #00D283;
+  border-radius: 1px;
+  border: none;
+}
+a:active {
+  color: #009bbe;
+}
+.homepage-content .layout.layout--twocol-section {
+  margin-top: 250px;
+}
+.homepage-content .view.view-home-right-content{
+  padding: 0px 18px;
+}
+.homepage-content .home-content-sec1 {
+  margin-top: 75px;
+  height: 225px;
+  border-radius: 1px;
+  width: 100%;
+  padding: 8px;
+}
+.homepage-content .home-content-sec1 .pane-title {
+  background-color: #08D087;
+}
+.homepage-content .home-content-sec1 h2 {
+  height: 50px;
+  padding: 4px 0px 0px 0px;
+  margin: 0px;
+  text-align: center;
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 2.25em;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+.homepage-content .home-content-sec1 .pane-content {
+  height: 175px;
+  padding: 15px;
+  font-size: 1.15em;
+  background-color: #F6F6F6;
+}
+.homepage-content .browse-intro, .homepage-content .order-intro {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.homepage-content .browse-col-1, .homepage-content .order-col-1 {
+  padding-left: 10px;
+  float: left;
+  width: 50%;
+}
+.homepage-content .browse-col-2, .homepage-content .order-col-2 {
+  float: right;
+  width: 50%;
+  padding-left: 10px;
+}
+.homepage-content .browse-item, .homepage-content .order-item {
+  margin-bottom: 6px;
+}
+.homepage-content .home-content-sec1 a {
+  color: #6b6b6b;
+}
+.homepage-content .home-content-sec1 .form-text, .homepage-content .home-content-sec1 .form-textarea {
+  height: 40px;
+  border-radius: 0px;
+  background-color: #FFF;
+  border: 1px solid #ccc;
+}

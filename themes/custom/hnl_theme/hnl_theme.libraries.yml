@@ -1,0 +1,29 @@
+global-styling:
+  version: VERSION
+  css:
+    base:
+      css/base/style.css: {}
+      css/drupal-styles.css: {}
+      css/theme.css: {}
+
+fonts:
+  version: VERSION
+  css:
+    base:
+      '//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light': {type:external}
+
+messages:
+  version: VERSION
+  css:
+    component:
+      css/components/messages.css: { preprocess: false }
+
+maintenance_page:
+  version: VERSION
+  css:
+    theme:
+      css/maintenance-page.css: {}
+  dependencies:
+    - system/maintenance
+    - hnl_theme/global-styling
+    - hnl_theme/fonts

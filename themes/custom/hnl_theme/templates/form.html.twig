@@ -1,0 +1,22 @@
+{#
+/**
+ * @file
+ * Theme override for a 'form' element.
+ *
+ * Available variables
+ * - attributes: A list of HTML attributes for the wrapper element.
+ * - children: The child elements of the form.
+ *
+ * @see template_preprocess_form()
+ */
+#}
+<form{{ attributes }}>
+  {{ children }}
+</form>
+{% set url = url('<current>') %}
+{% if 'user/login' in url|render|render %}
+<div style="width: 58%;">
+<a href="/user/register">Create Account</a>
+<a href="/forgotpassword" style="float:right">Forgot Password?</a>
+</div>
+{% endif %}
